@@ -1,0 +1,12 @@
+$titleColor: purple;
+
+h1 {
+  color: $titleColor;
+}
+
+@mixin first_style {
+  font-size: 2em;
+}
+.corps{
+  @include first_style;
+}
